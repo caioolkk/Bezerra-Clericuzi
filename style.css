@@ -9,27 +9,36 @@
 header {
     display: flex;
     background-color: #112033;
-    height: 50px;
+    height: 100px;
 }
 
 header img {
     height: auto;
     width: auto;
     object-fit: contain;
-    margin: 5px;
+    margin: 5px 5px 5px 500px;
 }
 
 header nav {
     width: 100%;
+
 }
 
 header ul {
     display: flex ;
-    justify-content: space-between;
+    position: absolute;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 25px -600px;
+
 }
 
 header li {
     color: #fff;
+    font-size: 20px;
+    margin: 40px;
     margin-top: 15px;
+    justify-content: center;
+    align-items: center;
 }
